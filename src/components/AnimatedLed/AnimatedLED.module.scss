@@ -1,0 +1,32 @@
+/* Define the keyframes for the color change animation */
+@keyframes colorChange {
+  0% {
+    background-color: rgb(125 211 252);
+  }
+  50% {
+    background-color: rgb(8 47 73);
+  }
+  60% {
+    background-color: rgb(224 242 254);
+  }
+  62% {
+    background-color: rgb(8 47 73);
+  }
+  64% {
+    background-color: rgb(224 242 254);
+  }
+  66% {
+    background-color: rgb(8 47 73);
+  }
+  68% {
+    background-color: rgb(224 242 254);
+  }
+  100% {
+    background-color: rgb(125 211 252);
+  }
+}
+
+.animatedLED {
+  animation: colorChange 5s infinite;
+  transition: all ease-in-out duration-300;
+}
